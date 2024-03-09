@@ -81,6 +81,7 @@ main {
     width: 95%;
     height: 250px;
     margin: 15px 0 15px 0;
+    text-transform: lowercase;
 }
 
 .text_entrada:focus, 
@@ -162,7 +163,7 @@ main {
     width: 95%;
     height: 250px;
     margin: 15px 0 15px 0;
-
+    text-transform: lowercase;
 }
 
 
