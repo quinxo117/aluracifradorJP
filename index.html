@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Cifrado, texto, Encriptador,"> 
+	<meta name="description" content="Encriptador de Texto"> 
+	<meta name="author" content="Joaquin Platero"> <!-- -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Cifrador ALURA</title>
+	<link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+	<body>
+	
+		<header>
+
+            <a href="https://rb.gy/qh41t5" class="logolink">a</a>
+            <h1 class="titulo">Encriptador de Texto</h1>
+
+		</header>
+				
+        <main>
+            <section class="entrada">
+                
+                <textarea name="text_entrada" class="text_entrada" id="text_entrada" placeholder="Entrada de texto"></textarea>    
+            
+                <div class="botones">
+                    <button class="btn_cifrar" id="btn_cifrar" name="btn_cifrar" onclick="krypto('#text_entrada','#text_salida', enumED.encripte)">Cifrar</button>
+                    <button class="btn_decifrar" id="btn_decifrar" id="btn_decifrar" type="button" onclick="krypto('#text_entrada','#text_salida', enumED.desencripte)">Descifrar</button>
+                </div>
+            </section>
+
+            <section class="salida">                                    
+            
+                <textarea name="text_salida" class="text_salida" id="text_salida" placeholder="Salida de texto"></textarea>
+                
+                <div class="botones_c">
+                    <button class="btn_copiar" id="btn_copiar" type="button" onclick="copiar('#text_entrada','#text_salida')">Copiar</button>
+                </div>
+            </section>
+
+        </main>
+
+		<footer>
+            
+            <div class="contenedorlinks">
+                <a class="twitter" href="https://twitter.com/quincho117"><img src="img/twitterx1.png" alt="twitter"></a>
+                <a class="github" href="https://github.com/quinxo117"><img src="img/github-mark.png" alt="github"></a>
+                <a class="linkedin" href="https://www.linkedin.com/in/jplatero/"><img src="img/linkedin.png" alt="linkedin"></a>
+            </div>
+
+            <p> <marquee behavior="" direction="">Creado por Joaquin Platero || #challengeonecodificador6 </marquee></p>
+
+		</footer>
+
+	</body>
+    <script src="main.js"></script>
+</html>
